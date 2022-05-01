@@ -1,0 +1,8 @@
+--AULA 03 - DISTINCT + DESAFIOS aos 19:05 do video
+
+--DISTINCT TIRAR DADOS REPETIDOS
+SELECT DISTINCT FirstName
+	FROM Person.Person;
+
+SELECT DISTINCT LastName 
+	FROM Person.Person;
