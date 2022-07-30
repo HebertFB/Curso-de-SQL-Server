@@ -12,7 +12,7 @@ SELECT p.BusinessEntityID, p.FirstName, p.LastName, pe.EmailAddress
 ------------------------------ AULA 16 - INNER JOIN ------------------------------
 
 --1
-SELECT TOP 10 pp.ListPrice AS "Preço", pp.[Name] AS "Nome", ps.[Name] AS "Nome da SubCategoria"
+SELECT TOP 10 pp.ListPrice AS "PreCo", pp.[Name] AS "Nome", ps.[Name] AS "Nome da SubCategoria"
 	FROM Production.Product AS pp
 	INNER JOIN Production.ProductSubcategory AS ps ON pp.ProductSubcategoryID = ps.ProductSubcategoryID
 

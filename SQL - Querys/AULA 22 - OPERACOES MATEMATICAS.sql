@@ -1,4 +1,4 @@
------------------------------- AULA 22 - OPERAÇÕES MATEMATICAS ------------------------------
+------------------------------ AULA 22 - OPERACOES MATEMATICAS ------------------------------
 
 SELECT TOP 5 UnitPrice + LineTotal AS MAIS
 	FROM Sales.SalesOrderDetail

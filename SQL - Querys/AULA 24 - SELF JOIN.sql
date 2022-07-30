@@ -1,11 +1,11 @@
 ------------------------------ AULA 24 - SELF JOIN ------------------------------
 
---Todos clientes que moram na mesma região
+--Todos clientes que moram na mesma regiao
 SELECT A.CompanyName, A.Region, B.ContactName, B.Region
 	FROM Customers AS A, Customers AS B
 	WHERE A.Region = B.Region
 
---(Nome e Data de Contratação) de funcionarios que foram contratados no mesmo ano
+--(Nome e Data de Contratacao) de funcionarios que foram contratados no mesmo ano
 SELECT A.FirstName, A.HireDate, B.FirstName, B.HireDate
 	FROM Employees AS A,Employees AS B
 	WHERE DATEPART(YEAR, A.HireDate) = DATEPART(YEAR, B.HireDate)

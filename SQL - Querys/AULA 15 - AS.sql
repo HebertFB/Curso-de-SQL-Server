@@ -1,7 +1,7 @@
-SELECT TOP 10 ListPrice AS "Preço do Produto"
+SELECT TOP 10 ListPrice AS "Preco do Produto"
 	FROM Production.Product
 
-SELECT TOP 10 AVG(ListPrice) AS "Preço Médio"
+SELECT TOP 10 AVG(ListPrice) AS "Preco Medio"
 	FROM Production.Product
 
 ------------------------ AULA 15 - AS --------------------
@@ -15,12 +15,12 @@ SELECT TOP 10 FirstName AS Nome, LastName AS Sobrenome
 
 --2
 
-SELECT TOP 10 ProductNumber AS "Número do Produto"
+SELECT TOP 10 ProductNumber AS "Numero do Produto"
 	FROM Production.Product
 
 --3
 SELECT *
 	FROM Sales.SalesOrderDetail
 
-SELECT TOP 10 UnitPrice AS "Preço Unitário"
+SELECT TOP 10 UnitPrice AS "Preco Unitario"
 	FROM Sales.SalesOrderDetail

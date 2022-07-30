@@ -2,7 +2,7 @@
 -- LEFT JOIN
 
 ------------------------------ AULA 18 - OUTER JOIN  ------------------------------
--- Descobrir quais pessoas tem um cartão de credito registrado
+-- Descobrir quais pessoas tem um cartao de credito registrado
 
 SELECT * 
 	FROM Person.Person AS PP
@@ -20,7 +20,7 @@ SELECT *
 SELECT 19972 - 19118
 -------------------------------------
 
--- Descobrir quais pessoas NÂO tem um cartão de credito registrado
+-- Descobrir quais pessoas NAO tem um cartao de credito registrado
 
 SELECT * 
 	FROM Person.Person AS PP
